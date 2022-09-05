@@ -15,7 +15,6 @@ namespace cuentaBancaria
             int opcion;
             do
             {
-
                 Console.WriteLine("Menu ");          
                 Console.WriteLine("1.crear cuenta");
                 Console.WriteLine("2.consiganr");
