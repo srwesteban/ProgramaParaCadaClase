@@ -11,7 +11,6 @@ namespace cuentaBancaria
         public string id { get; set; }
         public string name { get; set; }
         public int balance { get; set; }
-
         
         public Cuenta()
         {
@@ -30,8 +29,7 @@ namespace cuentaBancaria
         }
         public int creditar(int credito)
         {
-            int nuevoSaldo = this.balance + credito ;
-
+            int nuevoSaldo = this.balance + credito;
             this.balance = nuevoSaldo;
             return balance;
         }
