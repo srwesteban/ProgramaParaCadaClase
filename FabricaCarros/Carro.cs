@@ -20,12 +20,13 @@ namespace FabricaCarros
             this.chasis = chasis;
 
         }
-
+        
         public override string ToString()
         {
-            return $"Especificaciones: \ncolor: {color}, llantas = ({llantas}) chasis = ({chasis})";
+            return $"\nEspecificaciones:\n\ncolor: {color}, llantas = ({llantas}) chasis = ({chasis})";
 
-        }
+        }        
+       
     }
     
 

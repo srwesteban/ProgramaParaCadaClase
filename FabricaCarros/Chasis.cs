@@ -5,13 +5,16 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace FabricaCarros
-{
+{    public enum materia
+    {
+        aluminio, acero
+    }
     public class Chasis
     {
         private double peso;
-        private string material;// aluminio o acero
+        private materia material;// aluminio o acero
 
-        public Chasis(double peso, string material)
+        public Chasis(double peso, materia material)
         {
             this.peso = peso;
             this.material = material;
