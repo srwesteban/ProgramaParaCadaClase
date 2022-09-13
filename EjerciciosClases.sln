@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "itemsFactura", "itemsFactur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cuentaBancaria", "cuentaBancaria\cuentaBancaria.csproj", "{B44B6030-0819-479E-9AC6-5E4A7AE2EF0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circulo", "Circulo\Circulo.csproj", "{56199673-4321-423D-A953-0A2644E81B87}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Circulo", "Circulo\Circulo.csproj", "{56199673-4321-423D-A953-0A2644E81B87}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Author", "Author\Author.csproj", "{B157FAD8-03D7-4AD1-8B71-96033B9FDC34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Author", "Author\Author.csproj", "{B157FAD8-03D7-4AD1-8B71-96033B9FDC34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FabricaCarros", "FabricaCarros\FabricaCarros.csproj", "{6ED7E2ED-67A0-4FA2-9875-7F297B87BDBB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FabricaCarros", "FabricaCarros\FabricaCarros.csproj", "{6ED7E2ED-67A0-4FA2-9875-7F297B87BDBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Libroo", "Libroo\Libroo.csproj", "{8A2DB025-207E-4FF5-8F5B-15F857DB9947}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{6ED7E2ED-67A0-4FA2-9875-7F297B87BDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6ED7E2ED-67A0-4FA2-9875-7F297B87BDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6ED7E2ED-67A0-4FA2-9875-7F297B87BDBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2DB025-207E-4FF5-8F5B-15F857DB9947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2DB025-207E-4FF5-8F5B-15F857DB9947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2DB025-207E-4FF5-8F5B-15F857DB9947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2DB025-207E-4FF5-8F5B-15F857DB9947}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
