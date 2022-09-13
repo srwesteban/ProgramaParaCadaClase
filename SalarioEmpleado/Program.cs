@@ -10,6 +10,8 @@ namespace SalarioEmpleado
             Empleado empleado = new Empleado(123465,"William","Esteban", 1000000);
             Console.WriteLine(empleado);
 
+           // empleado.getName()
+
             empleado.getIncrementarSalario(10);
             Console.WriteLine(empleado);
 
