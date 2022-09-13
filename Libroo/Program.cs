@@ -18,26 +18,28 @@ namespace LibroAutor
             string nombre = Console.ReadLine();
 
             Autor autor = new Autor(nombre);
-
+            Libro libro;
             string opcion = "";
             do
             {
-                Console.WriteLine("ingresar libros del autor");
+                Console.WriteLine("ingrese los libros del autor\n");
 
-                Console.WriteLine("ingresar titulo");
+                Console.WriteLine("1. ingresar titulo");
                 string titulo = Console.ReadLine();
+                Console.WriteLine("2. ingresar numero de paginas");
                 int paginas = Convert.ToInt32(Console.ReadLine());
 
-                Libro libro = new Libro(paginas, titulo);
+                libro = new Libro(paginas, titulo);
                 autor.agregarlibro(libro);
 
                 Console.WriteLine("desea seguir adicionando libros S para continuar N para terminar");
                 opcion = Console.ReadLine();
 
 
-            } while (opcion == "n");
+            } while (opcion != "n");
 
-            Console.WriteLine(autor);
+            Console.WriteLine("el autor " + autor + " ha escrito estos libros");
+            autor.listar();
         }
     }
 

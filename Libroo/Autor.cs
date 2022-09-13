@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,6 +25,20 @@ namespace LibroAutor
         {
             listalibros.Add(a);
 
+        }
+        public void listar()
+        {
+
+            foreach (Libro libro in listalibros)
+            {
+                Console.WriteLine(libro);
+            }          
+
+        }
+
+        public override string ToString()
+        {
+            return $"{Name}";
         }
     }
 

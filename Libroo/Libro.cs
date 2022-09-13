@@ -16,11 +16,12 @@ namespace LibroAutor
             this.paginas = a;
             this.titulo = b;
         }
+       
         public override string ToString()
         {
-            return $"el libro {titulo} tiene estas {paginas}";
+            return $"el libro titulado  {titulo} que tiene este numero de paginas {paginas}";
         }
-
+        
 
 
 
